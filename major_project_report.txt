@@ -1,0 +1,67 @@
+2.1 Problem Statement:
+The issue was that previously, attendance was manually recorded on paper, and teachers from different departments would individually mark attendance, leading to a time-consuming process. Additionally, managing all this paper-based attendance data posed significant challenges.
+2.1.1. Time-Consuming Process: Manual attendance on paper required teachers from different departments to mark attendance, leading to a time-consuming process individually. This manual effort was inefficient and took up valuable teaching time.
+2.1.2 Data Management Challenges: Managing paper-based attendance records was difficult. Storing, organizing, and retrieving attendance data accurately was a cumbersome task, especially as the volume of records increased.
+2.1.3. Error-Prone Recording: Manual attendance was susceptible to errors such as illegible handwriting, incorrect entries, or misplaced records. These errors could lead to inaccurate attendance tracking and confuse record-keeping.
+2.1.4. Lack of Real-Time Data: Real-time student attendance data was unavailable with paper-based attendance. This delayed access to attendance information, making it challenging for administrators to track attendance trends promptly.
+2.1.5. Security Risks: Paper records were vulnerable to damage, loss, or unauthorized access. Maintaining the confidentiality and integrity of attendance data was a concern without proper security measures.
+2.2 Background and Related Work
+2.2.1 Background Work:
+•	API Calls: The backend receives API calls from the frontend, processing requests to:
+	Add new student data
+	Update attendance records
+	Generate reports
+•	Business Logic: The backend applies business logic to ensure data consistency and accuracy, such as:
+	Validating student data
+	Calculating attendance percentages
+•	Database Updates: The backend updates the database with new or modified data.
+2.2.1.3 Database:
+•	Student Data: The database stores student information, including name, roll number, course, and department.
+•	Attendance Records: The database stores attendance records, including date, status (present/absent), and remarks.
+•	User Credentials: The database stores user credentials, including username, password, and role.
+2.2.2 Literature survey:
+Without online attendance portals, educational institutions relied on traditional attendance tracking methods, which were often manual, time-consuming, and prone to errors. Here's a review of the literature highlighting the challenges and limitations of traditional attendance tracking methods:
+2.2.2.1 Manual Attendance Sheet: Manual Attendance Sheets (MAS) are paper-based documents used to record student attendance in educational institutions when online attendance portal services are unavailable.
+Components of manual attendance sheet:
+•	Attendance Sheet: A paper sheet with columns and rows to record student attendance.
+•	Student Names: Listed in alphabetical order or by class/section.
+•	Date: The date of the attendance recording.
+•	Period/Session: The specific class or session (e.g., Lecture, Lab, etc.).
+•	Attendance Status: Columns for marking present (P), absent (A), or late (L).
+•	Signature/Initials: Space for the teacher/instructor to sign or initial.
+Process of manual attendance sheet:
+•	Distribution: The attendance sheet is distributed to the teacher/instructor before the class/session.
+•	Marking Attendance: The teacher/instructor marks each student's attendance status (P, A, or L) in the respective column.
+•	Verification: The teacher/instructor verifies the attendance marks with the students.
+•	Signing/Initialing: The teacher/instructor signs or initials the attendance sheet to confirm its accuracy.
+•	Collection: The completed attendance sheet is collected by the administrative staff.
+•	Recording: The attendance data is manually recorded in a register or ledger.
+•	Storage: The attendance sheets are stored in a secure location for future reference.
+Challenges of manual attendance sheet:
+•	Time-consuming: Manual attendance marking and recording are time-consuming.
+•	Error-prone: Human errors can occur while marking or recording attendance.
+•	Difficult to track: Identifying patterns or trends in student attendance can be challenging.
+•	Limited accessibility: Attendance records may not be easily accessible for analysis or reporting.
+•	Data security: Paper-based records can be lost, damaged, or tampered with.
+The manual attendance sheet process is labor-intensive, prone to errors, and limited in its ability to provide insights into student attendance patterns. The introduction of online attendance portals has significantly improved the efficiency and effectiveness of attendance tracking in educational institutions.
+The approach of an online attendance portal differs significantly from manual attendance sheets in several ways:
+
+•	Automation: Online attendance portals automate the attendance tracking process, reducing manual errors and increasing efficiency.
+•	Real-time tracking: Online portals allow for real-time attendance tracking, enabling instant monitoring and updates.
+•	Accessibility: Online portals provide easy access to attendance records from anywhere, at any time, and on various devices.
+•	Data analysis: Online portals offer advanced data analysis capabilities, enabling insights into attendance patterns and trends.
+•	Security: Online portals ensure data security and privacy, reducing the risk of lost, damaged, or tampered records.
+•	Scalability: Online portals can handle large amounts of data and users, making them ideal for large institutions.
+•	User-friendly interface: Online portals offer intuitive interfaces, making it easy for users to navigate and manage attendance.
+•	Notifications and alerts: Online portals can send automated notifications and alerts for absenteeism, tardiness, or other attendance-related issues.
+•	Integration: Online portals can integrate with existing systems, such as student information systems (SIS) or learning management systems (LMS).
+•	Environmentally friendly: Online portals reduce paper usage, making them a more sustainable option.
+In contrast, manual attendance sheets rely on manual data entry, are prone to errors, and offer limited data analysis capabilities. Online attendance portals offer a more efficient, accurate, and insightful approach to attendance tracking.
+2.3 Solution Approach (Methodology and Technology Used)
+This section outlines the technologies and methodologies used to develop your E-Attendance portal.
+•	Frontend Technology: HTML, CSS, JavaScript, and Bootstrap created a user-friendly and responsive interface for faculty and administrators.
+•	Backend Technology: PHP, SQL, and CodeIgniter were used to develop a robust and scalable backend system for managing student data and attendance records.
+•	Methodology:
+	Administrators can add new student data and assign credentials to sub-admins or department HODs.
+	Sub-admins/HODs can take day-wise student attendance using the portal.
+	The system automatically updates attendance records and provides real-time data for faculty and administrators.

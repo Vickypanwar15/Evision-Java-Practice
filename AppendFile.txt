@@ -1,0 +1,7 @@
+While writing data by FileWriter compulsory we should insert line separator(\n)
+manually which is a bigger headache to the programmer
+aeiouWhile writing data by FileWriter compulsory we should insert line separator(\n) 
+manually which is a bigger headache to the programmer
+aeiouWhile writing data by FileWriter compulsory we should insert line separator(\n) 
+manually which is a bigger headache to the programmer
+aeiou
