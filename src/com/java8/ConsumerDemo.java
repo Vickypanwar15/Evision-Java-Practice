@@ -68,9 +68,9 @@ public class ConsumerDemo {
         modifyEmp.accept(empList);
         System.out.println(empList);
 
-        List<Employee> modifiedList = empList.stream().filter(checkSalary).toList();
-        System.out.println("filter list from employee using stream");
-        System.out.println(modifiedList);
+//        List<Employee> modifiedList = empList.stream().filter(checkSalary).toList();
+//        System.out.println("filter list from employee using stream");
+//        System.out.println(modifiedList);
 
 
     }
